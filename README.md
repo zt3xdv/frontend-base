@@ -6,6 +6,7 @@
 [![Rollup](https://img.shields.io/badge/bundler-Rollup-ec4a3f?logo=rollup.js&logoColor=white)](https://rollupjs.org/)
 
 A lightweight and fast frontend base built with Preact, TypeScript, and Rollup.
+View demo [here](htttps://zt3xdv.github.io/frontend-base/).
 
 ## Getting started
 
