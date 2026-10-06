@@ -5,8 +5,7 @@
 [![Preact](https://img.shields.io/badge/UI-Preact-673ab8?logo=preact)](https://preactjs.com/)
 [![Rollup](https://img.shields.io/badge/bundler-Rollup-ec4a3f?logo=rollup.js&logoColor=white)](https://rollupjs.org/)
 
-A lightweight and fast frontend base built with Preact, TypeScript, and Rollup.
-View demo [here](htttps://zt3xdv.github.io/frontend-base/).
+A lightweight and fast frontend base built with Preact, TypeScript, and Rollup. [demo](https://zt3xdv.github.io/frontend-base/)
 
 ## Getting started
 
