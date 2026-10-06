@@ -13,7 +13,7 @@ A lightweight and fast frontend base built with Preact, TypeScript, and Rollup.
 npm install
 ```
 
-Start the development server:
+Start the development bundler (watch):
 
 ```bash
 npm run dev
