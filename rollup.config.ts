@@ -4,14 +4,14 @@ import image from "@rollup/plugin-image";
 import html from "@rollup/plugin-html";
 import postcss from "rollup-plugin-postcss";
 import terser from "@rollup/plugin-terser";
-import swcFallback from "./src/rollup/swc-fallback.ts";
+import swc from "./src/swc.ts";
 
 export default {
   input: "src/main.tsx",
   output: {
     dir: "dist",
     format: "es",
-    sourcemap: true,
+    sourcemap: process.env.NODE_ENV != "production",
     entryFileNames: "assets/[name]-[hash].js",
     assetFileNames: "assets/[name]-[hash][extname]"
   },
@@ -20,7 +20,7 @@ export default {
       browser: true
     }),
     commonjs(),
-    swcFallback(),
+    swc(),
     postcss({
       extract: "assets/styles.css",
       minimize: process.env.NODE_ENV == "production"

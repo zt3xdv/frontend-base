@@ -26,7 +26,7 @@ export default function swcFallback(): Plugin {
   let compiler: Compiler;
 
   return {
-    name: "swc-native-with-wasm-fallback",
+    name: "swc",
 
     buildStart() {
       compiler = loadCompiler();
