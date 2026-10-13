@@ -30,11 +30,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: template
 
       - name: Build
         run: npm run build
-        working-directory: template
 
       - name: Configure Pages
         uses: actions/configure-pages@v6
@@ -42,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: ./template/dist
+          path: ./dist
 
   deploy:
     runs-on: ubuntu-latest

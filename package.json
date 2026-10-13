@@ -1,26 +1,35 @@
 {
-  "name": "create-frontend-base",
+  "name": "frontend-base",
   "version": "1.0.0",
-  "description": "Scaffold a lightweight frontend base built with Preact, TypeScript, and Rollup.",
+  "description": "A lightweight and fast frontend base built with Preact, TypeScript, and Rollup.",
   "keywords": [
-    "create",
-    "scaffold",
+    "base",
     "preact",
     "rollup",
-    "typescript",
-    "lightweight"
+    "lightweight",
+    "no-bin"
   ],
   "license": "MIT",
   "author": "zt3xdv",
   "type": "module",
-  "bin": {
-    "create-frontend-base": "bin/create-frontend-base.js"
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c",
+    "dev": "rollup -c -w"
   },
-  "files": [
-    "bin",
-    "template"
-  ],
-  "engines": {
-    "node": ">=20"
+  "dependencies": {
+    "preact": "^11.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.3",
+    "@rollup/plugin-html": "^2.0.0",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-swc": "^0.4.1",
+    "@rollup/plugin-terser": "^1.0.0",
+    "@swc/core": "^1.16.13",
+    "rollup": "^4.64.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^7.0.2"
   }
 }
