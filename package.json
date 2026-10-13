@@ -1,6 +1,6 @@
 {
   "name": "create-frontend-base",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Scaffold a lightweight frontend base built with Preact, TypeScript, and Rollup.",
   "keywords": [
     "create",
