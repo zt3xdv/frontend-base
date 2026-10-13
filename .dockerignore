@@ -1,4 +1,6 @@
 node_modules
+template/node_modules
+template/dist
 dist
 .git
 .github

@@ -1,31 +1,27 @@
-# frontend-base
+# create-frontend-base
 
 [![Build and deploy](https://github.com/zt3xdv/frontend-base/actions/workflows/build.yml/badge.svg)](https://github.com/zt3xdv/frontend-base/actions/workflows/build.yml)
 [![License](https://img.shields.io/github/license/zt3xdv/frontend-base)](LICENSE)
 [![Preact](https://img.shields.io/badge/UI-Preact-673ab8?logo=preact)](https://preactjs.com/)
 [![Rollup](https://img.shields.io/badge/bundler-Rollup-ec4a3f?logo=rollup.js&logoColor=white)](https://rollupjs.org/)
 
-A lightweight and fast frontend base built with Preact, TypeScript, and Rollup. [demo](https://zt3xdv.github.io/frontend-base/)
+Scaffolds a lightweight and fast frontend base built with Preact, TypeScript, and Rollup. [demo](https://zt3xdv.github.io/frontend-base/)
 
-## Getting started
+## Usage
 
 ```bash
-npm install
+curl -fsSL https://raw.githubusercontent.com/zt3xdv/frontend-base/main/create.sh | bash
 ```
 
-Start the development bundler (watch):
+Once scaffolded:
 
 ```bash
+cd my-app
+npm install
 npm run dev
 ```
 
-Build for production:
-
-```bash
-npm run build
-```
-
-## Tech stack
+## Template
 
 - Preact
 - TypeScript
