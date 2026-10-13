@@ -13,14 +13,6 @@ Scaffolds a lightweight and fast frontend base built with Preact, TypeScript, an
 curl -fsSL https://raw.githubusercontent.com/zt3xdv/frontend-base/main/create.sh | bash
 ```
 
-The CLI asks for the project name and app title, then for a description, author (defaults to your `git config`), whether to initialize a git repository, and whether to install dependencies. It rewrites `package.json` (name, description, author) and `rollup.config.ts` (HTML title) in the generated project.
-
-To skip the first two questions:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/zt3xdv/frontend-base/main/create.sh | sh -s -- my-app "My App"
-```
-
 Once scaffolded:
 
 ```bash

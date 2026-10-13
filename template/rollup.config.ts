@@ -29,7 +29,7 @@ export default {
     html({
       title: "My App",
       template: ({ attributes, files, meta, publicPath, title }) => `<!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
